@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="test.PIM.EmployeeListTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="EmployeeListTest"/>
+          <include name="EmployeeListTest"/>
+          <include name="loadBrowser"/>
+          <include name="Login"/>
+          <include name="beforeTest"/>
+          <include name="nameBefore"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.PIM.EmployeeListTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

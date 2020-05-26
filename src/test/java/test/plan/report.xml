@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="REGRESSION" verbose="1" configfailurepolicy="continue">
+    <listeners>
+
+        <listener class-name="utils.ExtentReportListener" />
+        <listener class-name="utils.MetricsListener" />
+    </listeners>
+
+
+    <test name="Regression" >
+        <classes>
+
+<!--            <class name="test.LoginTest"></class>-->
+
+            <class name="test.AdminTest.UserTest"></class>
+
+
+<!--        <class name="test.AdminTest"></class>-->
+            <class name="test.plan.PayGradeTestPage"></class>
+            <class name="test.plan.JobCatogoryTest"></class>
+            <class name="test.plan.EmploymentStatusTest"></class>
+            <class name="test.plan.WorkShiftTest"></class>
+
+        </classes>
+    </test>
+
+
+</suite>
